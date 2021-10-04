@@ -7,14 +7,67 @@
   <title>Document</title>
 </head>
 <body>
-  <div id="ispis">
-
-  </div>
+<div id="ispis"></div>
+<hr/>
+  <input id="prvi" type="number" placeholder="Unesi prvi broj" onChange="prva()"/><br/>
+  <input id="drugi" type="number" placeholder="Unesi drugi broj" onChange="prva()"/>
+  <hr/>
+  <input id="treci" type="number" placeholder="Unesi treci broj" onChange="druga()"/><br/>
+  <input id="cetvrti" type="number" placeholder="Unesi cetvrti broj" onChange="druga()"/>
+  <hr/>
+  <input id="peti" type="number" placeholder="Unesi peti broj" onChange="treca()"/><br/>
+  <input id="sesti" type="number" placeholder="Unesi sesti broj" onChange="treca()"/>
+</body>
   <script>
+   
+    
+// let prva=()=>{
+
+//   let a=Number(document.getElementById("prvi").value)
+//   let b=Number(document.getElementById("drugi").value)
+// console.log(a)
+//   // if(a=0){
+//   //  a=1
+//   // };
+//   // if(b=0){
+//   // b=1
+//   // };
+//   console.log(a,b)
+//   racunaj(a,b);
+// }
 
 
 
-document.getElementById("ispis").innerHTML= "evo me"
+// let druga=()=>{
+//   let c=Number(document.getElementById("treci").value)
+//   let d=Number(document.getElementById("cetvrti").value)
+
+// }
+
+// let treca=()=>{
+//   let e=Number(document.getElementById("peti").value)
+//   let f=Number(document.getElementById("sesti").value)
+
+// }
+
+// let racunaj=(a,b)=>{
+
+//   console.log(a+b) 
+// } 
+
+const fja=(a,b)=>{
+  //console.log(a,b);
+  return (c,d)=>{
+    return (e,f)=>{
+      console.log( a*c*e+b*d*f)
+     
+    }
+    
+  }
+}
+
+
+fja(1,2)(1,2)(3,4)
 
   </script>
 </body>
