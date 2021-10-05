@@ -13,15 +13,19 @@
         let ukupno = 1;
         niz_argumenata.forEach((element) => {
 
-          if (element != 0) {
-            ukupno = element * ukupno;
-            console.log(ukupno)
-          } else {
-            ukupno = element * 1;
-          }
-        });
-        console.log(ukupno);
-      };
+        //   if (element != 0) {
+        //     ukupno = element * ukupno;
+        //     console.log(ukupno)
+        //   } else {
+        //     ukupno = element + ukupno;
+        //   }
+        // });
+        // console.log(ukupno);
+        element !=0? ukupno = element * ukupno:ukupno = element + ukupno
+
+      });
+      console.log(ukupno);
+    };
 
       pomnozi(1, 2, 3, 5);
     </script>
