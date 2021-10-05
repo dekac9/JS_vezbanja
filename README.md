@@ -10,3 +10,15 @@ npr.
 1*1*3+2*2*4 = 3+16=19
 
 console.log("vrati triput") - da ispisuje resenja
+
+2) zadatak
+
+Napraviti fju koja vraca proizvod proizvoljnog broja argumenata koji su joj prosledjeni.
+U slucaju da je argument 0 tada se ne mnozi sa njim nego se on dodaje na prethodni i nastavlja se dalja logika
+
+npr. 
+pomnozi(4,5)
+clg daje 4*5=20;
+
+pomnozi(1,0,2,4)
+clg daje 1+0*2*4=8
